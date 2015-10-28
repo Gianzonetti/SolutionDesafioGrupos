@@ -66,7 +66,7 @@ namespace DesafioAlunos
         {
             for (int i = 0; i < numeroDeGrupos; i++)
             {
-                Console.WriteLine("\n -GRUPO {0} \n", i);
+                Console.WriteLine("\n -GRUPO {0} \n", i+1);
                 foreach (var aluno in grupos[i])
                 {
                     Console.WriteLine(aluno.Nome);
